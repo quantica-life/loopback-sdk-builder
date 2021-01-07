@@ -786,7 +786,7 @@
 	 * of patent rights can be found in the PATENTS file in the same directory.
 	 *
 	 * @providesModule reactProdInvariant
-	 * 
+	 *
 	 */
 	'use strict';
 
@@ -1352,7 +1352,7 @@
 	 * LICENSE file in the root directory of this source tree. An additional grant
 	 * of patent rights can be found in the PATENTS file in the same directory.
 	 *
-	 * 
+	 *
 	 */
 
 	function makeEmptyFunction(arg) {
@@ -1597,7 +1597,7 @@
 	 * of patent rights can be found in the PATENTS file in the same directory.
 	 *
 	 * @providesModule getIteratorFn
-	 * 
+	 *
 	 */
 
 	'use strict';
@@ -1643,7 +1643,7 @@
 	 * of patent rights can be found in the PATENTS file in the same directory.
 	 *
 	 * @providesModule KeyEscapeUtils
-	 * 
+	 *
 	 */
 
 	'use strict';
@@ -6374,7 +6374,7 @@
 	 * of patent rights can be found in the PATENTS file in the same directory.
 	 *
 	 * @providesModule accumulateInto
-	 * 
+	 *
 	 */
 
 	'use strict';
@@ -6438,7 +6438,7 @@
 	 * of patent rights can be found in the PATENTS file in the same directory.
 	 *
 	 * @providesModule forEachAccumulated
-	 * 
+	 *
 	 */
 
 	'use strict';
@@ -7708,7 +7708,7 @@
 	 * of patent rights can be found in the PATENTS file in the same directory.
 	 *
 	 * @providesModule ReactFeatureFlags
-	 * 
+	 *
 	 */
 
 	'use strict';
@@ -8981,7 +8981,7 @@
 	 * of patent rights can be found in the PATENTS file in the same directory.
 	 *
 	 * @providesModule isTextInputElement
-	 * 
+	 *
 	 */
 
 	'use strict';
@@ -12452,7 +12452,7 @@
 	 * LICENSE file in the root directory of this source tree. An additional grant
 	 * of patent rights can be found in the PATENTS file in the same directory.
 	 *
-	 * 
+	 *
 	 * @typechecks static-only
 	 */
 
@@ -15978,7 +15978,7 @@
 	 * of patent rights can be found in the PATENTS file in the same directory.
 	 *
 	 * @providesModule ReactNodeTypes
-	 * 
+	 *
 	 */
 
 	'use strict';
@@ -16024,7 +16024,7 @@
 	 * of patent rights can be found in the PATENTS file in the same directory.
 	 *
 	 * @typechecks
-	 * 
+	 *
 	 */
 
 	/*eslint-disable no-self-compare */
@@ -16260,7 +16260,7 @@
 	 * of patent rights can be found in the PATENTS file in the same directory.
 	 *
 	 * @providesModule flattenChildren
-	 * 
+	 *
 	 */
 
 	'use strict';
@@ -16438,7 +16438,7 @@
 	 * of patent rights can be found in the PATENTS file in the same directory.
 	 *
 	 * @providesModule ReactServerUpdateQueue
-	 * 
+	 *
 	 */
 
 	'use strict';
@@ -18593,7 +18593,7 @@
 	 * LICENSE file in the root directory of this source tree. An additional grant
 	 * of patent rights can be found in the PATENTS file in the same directory.
 	 *
-	 * 
+	 *
 	 */
 
 	var isTextNode = __webpack_require__(146);
@@ -21116,7 +21116,7 @@
 	 * of patent rights can be found in the PATENTS file in the same directory.
 	 *
 	 * @providesModule adler32
-	 * 
+	 *
 	 */
 
 	'use strict';
@@ -21633,7 +21633,7 @@
 	* ============================================================================
 	* import { NgModule }       from '@angular/core';
 	* import { BrowserModule }  from '@angular/platform-browser';
-	* // App Root 
+	* // App Root
 	* import { AppComponent }   from './app.component';
 	* // Feature Modules
 	* import { SDK[Browser|Node|Native]Module } from './shared/sdk/sdk.module';
@@ -23664,7 +23664,7 @@
 	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
 	/**
-	 * @module Storage
+	 * @module Storage
 	 * @author Jonathan Casarrubias <t: johncasarrubias, gh: mean-expert-official>
 	 * @license MIT
 	 * @description
@@ -23716,7 +23716,7 @@
 	}();
 
 	/**
-	 * @module InternalStorage
+	 * @module InternalStorage
 	 * @author Jonathan Casarrubias <t: johncasarrubias, gh: mean-expert-official>
 	 * @license MIT
 	 * @description
@@ -23739,7 +23739,7 @@
 	  return InternalStorage;
 	}(BaseStorage);
 	/**
-	 * @module SDKStorage
+	 * @module SDKStorage
 	 * @author Jonathan Casarrubias <t: johncasarrubias, gh: mean-expert-official>
 	 * @license MIT
 	 * @description
@@ -25040,7 +25040,7 @@
 	        /**
 	        CODE BELOW WILL GENERATE THE FOLLOWING ISSUES:
 	        - https://github.com/mean-expert-official/loopback-sdk-builder/issues/356
-	        - https://github.com/mean-expert-official/loopback-sdk-builder/issues/328 
+	        - https://github.com/mean-expert-official/loopback-sdk-builder/issues/328
 	        if (urlParams.where) {
 	          headers.append('where', JSON.stringify(urlParams.where));
 	          delete urlParams.where;
@@ -25451,13 +25451,13 @@
 	* @module LoopBackConfig
 	* @description
 	*
-	* The LoopBackConfig module help developers to externally 
+	* The LoopBackConfig module help developers to externally
 	* configure the base url and api version for loopback.io
 	*
 	* Example
 	*
 	* import { LoopBackConfig } from './sdk';
-	* 
+	*
 	* @Component() // No metadata needed for this module
 	*
 	* export class MyApp {
@@ -28374,7 +28374,7 @@
 	     *
 	     * @param {any} id User id
 	     *
-	     * @param {object} filter 
+	     * @param {object} filter
 	     *
 	     * @returns {object[]} An empty reference that will be
 	     *   populated with the actual data once the response is returned
@@ -28481,7 +28481,7 @@
 	     *
 	     * Data properties:
 	     *
-	     *  - `count` – `{number}` - 
+	     *  - `count` – `{number}` -
 	     */
 
 	  }, {
@@ -28591,9 +28591,9 @@
 	     *
 	     * The response body contains properties of the AccessToken created on login.
 	     * Depending on the value of `include` parameter, the body may contain additional properties:
-	     * 
+	     *
 	     *   - `user` - `U+007BUserU+007D` - Data of the currently logged in user. (`include=user`)
-	     * 
+	     *
 	     *
 	     */
 
@@ -28689,11 +28689,11 @@
 	    /**
 	     * Confirm a user registration with identity verification token.
 	     *
-	     * @param {string} uid 
+	     * @param {string} uid
 	     *
-	     * @param {string} token 
+	     * @param {string} token
 	     *
-	     * @param {string} redirect 
+	     * @param {string} redirect
 	     *
 	     * @returns {object} An empty reference that will be
 	     *   populated with the actual data once the response is returned
@@ -28754,9 +28754,9 @@
 	     *
 	     * @param {object} data Request data.
 	     *
-	     *  - `oldPassword` – `{string}` - 
+	     *  - `oldPassword` – `{string}` -
 	     *
-	     *  - `newPassword` – `{string}` - 
+	     *  - `newPassword` – `{string}` -
 	     *
 	     * @returns {object} An empty reference that will be
 	     *   populated with the actual data once the response is returned
@@ -28789,7 +28789,7 @@
 	     *
 	     * @param {object} data Request data.
 	     *
-	     *  - `newPassword` – `{string}` - 
+	     *  - `newPassword` – `{string}` -
 	     *
 	     * @returns {object} An empty reference that will be
 	     *   populated with the actual data once the response is returned
@@ -47329,7 +47329,7 @@
 	     *
 	     * @param {any} id Account id
 	     *
-	     * @param {object} filter 
+	     * @param {object} filter
 	     *
 	     * @returns {object[]} An empty reference that will be
 	     *   populated with the actual data once the response is returned
@@ -47436,7 +47436,7 @@
 	     *
 	     * Data properties:
 	     *
-	     *  - `count` – `{number}` - 
+	     *  - `count` – `{number}` -
 	     */
 
 	  }, {
@@ -47461,7 +47461,7 @@
 	     *
 	     * @param {any} id Account id
 	     *
-	     * @param {object} filter 
+	     * @param {object} filter
 	     *
 	     * @returns {object[]} An empty reference that will be
 	     *   populated with the actual data once the response is returned
@@ -47568,7 +47568,7 @@
 	     *
 	     * Data properties:
 	     *
-	     *  - `count` – `{number}` - 
+	     *  - `count` – `{number}` -
 	     */
 
 	  }, {
@@ -47593,7 +47593,7 @@
 	     *
 	     * @param {any} id Account id
 	     *
-	     * @param {object} filter 
+	     * @param {object} filter
 	     *
 	     * @returns {object[]} An empty reference that will be
 	     *   populated with the actual data once the response is returned
@@ -47700,7 +47700,7 @@
 	     *
 	     * Data properties:
 	     *
-	     *  - `count` – `{number}` - 
+	     *  - `count` – `{number}` -
 	     */
 
 	  }, {
@@ -47810,9 +47810,9 @@
 	     *
 	     * The response body contains properties of the AccessToken created on login.
 	     * Depending on the value of `include` parameter, the body may contain additional properties:
-	     * 
+	     *
 	     *   - `user` - `U+007BUserU+007D` - Data of the currently logged in user. (`include=user`)
-	     * 
+	     *
 	     *
 	     */
 
@@ -47908,11 +47908,11 @@
 	    /**
 	     * Confirm a user registration with identity verification token.
 	     *
-	     * @param {string} uid 
+	     * @param {string} uid
 	     *
-	     * @param {string} token 
+	     * @param {string} token
 	     *
-	     * @param {string} redirect 
+	     * @param {string} redirect
 	     *
 	     * @returns {object} An empty reference that will be
 	     *   populated with the actual data once the response is returned
@@ -47973,9 +47973,9 @@
 	     *
 	     * @param {object} data Request data.
 	     *
-	     *  - `oldPassword` – `{string}` - 
+	     *  - `oldPassword` – `{string}` -
 	     *
-	     *  - `newPassword` – `{string}` - 
+	     *  - `newPassword` – `{string}` -
 	     *
 	     * @returns {object} An empty reference that will be
 	     *   populated with the actual data once the response is returned
@@ -48008,7 +48008,7 @@
 	     *
 	     * @param {object} data Request data.
 	     *
-	     *  - `newPassword` – `{string}` - 
+	     *  - `newPassword` – `{string}` -
 	     *
 	     * @returns {object} An empty reference that will be
 	     *   populated with the actual data once the response is returned
@@ -48046,7 +48046,7 @@
 	     *
 	     * Data properties:
 	     *
-	     *  - `result` – `{any}` - 
+	     *  - `result` – `{any}` -
 	     */
 
 	  }, {
@@ -48070,9 +48070,9 @@
 	     *
 	     * @param {object} custom {"start": date, "end": date }
 	     *
-	     * @param {object} where where filter 
+	     * @param {object} where where filter
 	     *
-	     * @param {string} groupBy group by filter 
+	     * @param {string} groupBy group by filter
 	     *
 	     * @returns {object[]} An empty reference that will be
 	     *   populated with the actual data once the response is returned
@@ -48442,7 +48442,7 @@
 	     *
 	     * Data properties:
 	     *
-	     *  - `result` – `{any}` - 
+	     *  - `result` – `{any}` -
 	     */
 
 	  }, {
@@ -48466,9 +48466,9 @@
 	     *
 	     * @param {object} custom {"start": date, "end": date }
 	     *
-	     * @param {object} where where filter 
+	     * @param {object} where where filter
 	     *
-	     * @param {string} groupBy group by filter 
+	     * @param {string} groupBy group by filter
 	     *
 	     * @returns {object[]} An empty reference that will be
 	     *   populated with the actual data once the response is returned
@@ -48782,7 +48782,7 @@
 	     *
 	     * @param {any} id Category id
 	     *
-	     * @param {object} filter 
+	     * @param {object} filter
 	     *
 	     * @returns {object[]} An empty reference that will be
 	     *   populated with the actual data once the response is returned
@@ -48889,7 +48889,7 @@
 	     *
 	     * Data properties:
 	     *
-	     *  - `count` – `{number}` - 
+	     *  - `count` – `{number}` -
 	     */
 
 	  }, {
@@ -48990,7 +48990,7 @@
 	     *
 	     * Data properties:
 	     *
-	     *  - `result` – `{any}` - 
+	     *  - `result` – `{any}` -
 	     */
 
 	  }, {
@@ -49014,9 +49014,9 @@
 	     *
 	     * @param {object} custom {"start": date, "end": date }
 	     *
-	     * @param {object} where where filter 
+	     * @param {object} where where filter
 	     *
-	     * @param {string} groupBy group by filter 
+	     * @param {string} groupBy group by filter
 	     *
 	     * @returns {object[]} An empty reference that will be
 	     *   populated with the actual data once the response is returned
@@ -49160,7 +49160,7 @@
 	   *
 	   * Data properties:
 	   *
-	   *  - `result` – `{any}` - 
+	   *  - `result` – `{any}` -
 	   */
 
 
@@ -49185,9 +49185,9 @@
 	     *
 	     * @param {object} custom {"start": date, "end": date }
 	     *
-	     * @param {object} where where filter 
+	     * @param {object} where where filter
 	     *
-	     * @param {string} groupBy group by filter 
+	     * @param {string} groupBy group by filter
 	     *
 	     * @returns {object[]} An empty reference that will be
 	     *   populated with the actual data once the response is returned
@@ -49292,7 +49292,7 @@
 	   *
 	   * @param {any} id like id
 	   *
-	   * @param {boolean} refresh 
+	   * @param {boolean} refresh
 	   *
 	   * @returns {object} An empty reference that will be
 	   *   populated with the actual data once the response is returned
@@ -49327,7 +49327,7 @@
 	     *
 	     * @param {any} id like id
 	     *
-	     * @param {boolean} refresh 
+	     * @param {boolean} refresh
 	     *
 	     * @returns {object} An empty reference that will be
 	     *   populated with the actual data once the response is returned
@@ -49437,7 +49437,7 @@
 	     *
 	     * Data properties:
 	     *
-	     *  - `result` – `{any}` - 
+	     *  - `result` – `{any}` -
 	     */
 
 	  }, {
@@ -49461,9 +49461,9 @@
 	     *
 	     * @param {object} custom {"start": date, "end": date }
 	     *
-	     * @param {object} where where filter 
+	     * @param {object} where where filter
 	     *
-	     * @param {string} groupBy group by filter 
+	     * @param {string} groupBy group by filter
 	     *
 	     * @returns {object[]} An empty reference that will be
 	     *   populated with the actual data once the response is returned
@@ -49779,7 +49779,7 @@
 	     *
 	     * @param {any} id Message id
 	     *
-	     * @param {boolean} refresh 
+	     * @param {boolean} refresh
 	     *
 	     * @returns {object} An empty reference that will be
 	     *   populated with the actual data once the response is returned
@@ -49813,7 +49813,7 @@
 	     *
 	     * @param {any} id Message id
 	     *
-	     * @param {boolean} refresh 
+	     * @param {boolean} refresh
 	     *
 	     * @returns {object} An empty reference that will be
 	     *   populated with the actual data once the response is returned
@@ -49847,7 +49847,7 @@
 	     *
 	     * @param {any} id Message id
 	     *
-	     * @param {object} filter 
+	     * @param {object} filter
 	     *
 	     * @returns {object[]} An empty reference that will be
 	     *   populated with the actual data once the response is returned
@@ -49954,7 +49954,7 @@
 	     *
 	     * Data properties:
 	     *
-	     *  - `count` – `{number}` - 
+	     *  - `count` – `{number}` -
 	     */
 
 	  }, {
@@ -49979,7 +49979,7 @@
 	     *
 	     * @param {any} id Message id
 	     *
-	     * @param {object} filter 
+	     * @param {object} filter
 	     *
 	     * @returns {object[]} An empty reference that will be
 	     *   populated with the actual data once the response is returned
@@ -50086,7 +50086,7 @@
 	     *
 	     * Data properties:
 	     *
-	     *  - `count` – `{number}` - 
+	     *  - `count` – `{number}` -
 	     */
 
 	  }, {
@@ -50187,7 +50187,7 @@
 	     *
 	     * Data properties:
 	     *
-	     *  - `result` – `{any}` - 
+	     *  - `result` – `{any}` -
 	     */
 
 	  }, {
@@ -50211,9 +50211,9 @@
 	     *
 	     * @param {object} custom {"start": date, "end": date }
 	     *
-	     * @param {object} where where filter 
+	     * @param {object} where where filter
 	     *
-	     * @param {string} groupBy group by filter 
+	     * @param {string} groupBy group by filter
 	     *
 	     * @returns {object[]} An empty reference that will be
 	     *   populated with the actual data once the response is returned
@@ -51241,7 +51241,7 @@
 	     *
 	     * @param {any} id Room id
 	     *
-	     * @param {object} filter 
+	     * @param {object} filter
 	     *
 	     * @returns {object[]} An empty reference that will be
 	     *   populated with the actual data once the response is returned
@@ -51348,7 +51348,7 @@
 	     *
 	     * Data properties:
 	     *
-	     *  - `count` – `{number}` - 
+	     *  - `count` – `{number}` -
 	     */
 
 	  }, {
@@ -51373,7 +51373,7 @@
 	     *
 	     * @param {any} id Room id
 	     *
-	     * @param {object} filter 
+	     * @param {object} filter
 	     *
 	     * @returns {object[]} An empty reference that will be
 	     *   populated with the actual data once the response is returned
@@ -51480,7 +51480,7 @@
 	     *
 	     * Data properties:
 	     *
-	     *  - `count` – `{number}` - 
+	     *  - `count` – `{number}` -
 	     */
 
 	  }, {
@@ -51505,7 +51505,7 @@
 	     *
 	     * @param {any} id Room id
 	     *
-	     * @param {object} filter 
+	     * @param {object} filter
 	     *
 	     * @returns {object[]} An empty reference that will be
 	     *   populated with the actual data once the response is returned
@@ -51612,7 +51612,7 @@
 	     *
 	     * Data properties:
 	     *
-	     *  - `count` – `{number}` - 
+	     *  - `count` – `{number}` -
 	     */
 
 	  }, {
@@ -51637,7 +51637,7 @@
 	     *
 	     * @param {any} id Room id
 	     *
-	     * @param {object} filter 
+	     * @param {object} filter
 	     *
 	     * @returns {object[]} An empty reference that will be
 	     *   populated with the actual data once the response is returned
@@ -51744,7 +51744,7 @@
 	     *
 	     * Data properties:
 	     *
-	     *  - `count` – `{number}` - 
+	     *  - `count` – `{number}` -
 	     */
 
 	  }, {
@@ -51769,7 +51769,7 @@
 	     *
 	     * @param {any} id Room id
 	     *
-	     * @param {object} filter 
+	     * @param {object} filter
 	     *
 	     * @returns {object[]} An empty reference that will be
 	     *   populated with the actual data once the response is returned
@@ -51876,7 +51876,7 @@
 	     *
 	     * Data properties:
 	     *
-	     *  - `count` – `{number}` - 
+	     *  - `count` – `{number}` -
 	     */
 
 	  }, {
@@ -51971,11 +51971,11 @@
 	           * (The remote method definition does not provide any description.)
 	           * </em>
 	     *
-	     * @param {string} a 
+	     * @param {string} a
 	     *
-	     * @param {string} b 
+	     * @param {string} b
 	     *
-	     * @param {string} c 
+	     * @param {string} c
 	     *
 	     * @returns {object} An empty reference that will be
 	     *   populated with the actual data once the response is returned
@@ -51983,7 +51983,7 @@
 	     *
 	     * Data properties:
 	     *
-	     *  - `greeting` – `{string}` - 
+	     *  - `greeting` – `{string}` -
 	     */
 
 	  }, {
@@ -52009,11 +52009,11 @@
 	           * (The remote method definition does not provide any description.)
 	           * </em>
 	     *
-	     * @param {string} a 
+	     * @param {string} a
 	     *
-	     * @param {string} b 
+	     * @param {string} b
 	     *
-	     * @param {string} c 
+	     * @param {string} c
 	     *
 	     * @returns {object} An empty reference that will be
 	     *   populated with the actual data once the response is returned
@@ -52021,7 +52021,7 @@
 	     *
 	     * Data properties:
 	     *
-	     *  - `greeting` – `{string}` - 
+	     *  - `greeting` – `{string}` -
 	     */
 
 	  }, {
@@ -52048,11 +52048,11 @@
 	     *
 	     * @param {object} data Request data.
 	     *
-	     *  - `a` – `{object}` - 
+	     *  - `a` – `{object}` -
 	     *
-	     *  - `b` – `{object}` - 
+	     *  - `b` – `{object}` -
 	     *
-	     *  - `c` – `{object}` - 
+	     *  - `c` – `{object}` -
 	     *
 	     * @returns {object} An empty reference that will be
 	     *   populated with the actual data once the response is returned
@@ -52060,7 +52060,7 @@
 	     *
 	     * Data properties:
 	     *
-	     *  - `greeting` – `{object}` - 
+	     *  - `greeting` – `{object}` -
 	     */
 
 	  }, {
@@ -52125,7 +52125,7 @@
 	     *
 	     * @param {object} data Request data.
 	     *
-	     *  - `room` – `{object}` - 
+	     *  - `room` – `{object}` -
 	     *
 	     * @returns {object} An empty reference that will be
 	     *   populated with the actual data once the response is returned
@@ -52229,9 +52229,9 @@
 	     *
 	     * @param {object} custom {"start": date, "end": date }
 	     *
-	     * @param {object} where where filter 
+	     * @param {object} where where filter
 	     *
-	     * @param {string} groupBy group by filter 
+	     * @param {string} groupBy group by filter
 	     *
 	     * @returns {object[]} An empty reference that will be
 	     *   populated with the actual data once the response is returned
@@ -52521,7 +52521,7 @@
 	   *
 	   * @param {any} id RoomAccount id
 	   *
-	   * @param {boolean} refresh 
+	   * @param {boolean} refresh
 	   *
 	   * @returns {object} An empty reference that will be
 	   *   populated with the actual data once the response is returned
@@ -52556,7 +52556,7 @@
 	     *
 	     * @param {any} id RoomAccount id
 	     *
-	     * @param {boolean} refresh 
+	     * @param {boolean} refresh
 	     *
 	     * @returns {object} An empty reference that will be
 	     *   populated with the actual data once the response is returned
@@ -52666,7 +52666,7 @@
 	     *
 	     * Data properties:
 	     *
-	     *  - `result` – `{any}` - 
+	     *  - `result` – `{any}` -
 	     */
 
 	  }, {
@@ -52690,9 +52690,9 @@
 	     *
 	     * @param {object} custom {"start": date, "end": date }
 	     *
-	     * @param {object} where where filter 
+	     * @param {object} where where filter
 	     *
-	     * @param {string} groupBy group by filter 
+	     * @param {string} groupBy group by filter
 	     *
 	     * @returns {object[]} An empty reference that will be
 	     *   populated with the actual data once the response is returned
@@ -52797,7 +52797,7 @@
 	   *
 	   * @param {any} id RoomAdmin id
 	   *
-	   * @param {boolean} refresh 
+	   * @param {boolean} refresh
 	   *
 	   * @returns {object} An empty reference that will be
 	   *   populated with the actual data once the response is returned
@@ -52832,7 +52832,7 @@
 	     *
 	     * @param {any} id RoomAdmin id
 	     *
-	     * @param {boolean} refresh 
+	     * @param {boolean} refresh
 	     *
 	     * @returns {object} An empty reference that will be
 	     *   populated with the actual data once the response is returned
@@ -52942,7 +52942,7 @@
 	     *
 	     * Data properties:
 	     *
-	     *  - `result` – `{any}` - 
+	     *  - `result` – `{any}` -
 	     */
 
 	  }, {
@@ -52966,9 +52966,9 @@
 	     *
 	     * @param {object} custom {"start": date, "end": date }
 	     *
-	     * @param {object} where where filter 
+	     * @param {object} where where filter
 	     *
-	     * @param {string} groupBy group by filter 
+	     * @param {string} groupBy group by filter
 	     *
 	     * @returns {object[]} An empty reference that will be
 	     *   populated with the actual data once the response is returned
@@ -53134,7 +53134,7 @@
 	           * (The remote method definition does not provide any description.)
 	           * </em>
 	     *
-	     * @param {string} container 
+	     * @param {string} container
 	     *
 	     * @returns {object} An empty reference that will be
 	     *   populated with the actual data once the response is returned
@@ -53142,7 +53142,7 @@
 	     *
 	     * Data properties:
 	     *
-	     *  - `` – `{}` - 
+	     *  - `` – `{}` -
 	     */
 
 	  }, {
@@ -53166,7 +53166,7 @@
 	           * (The remote method definition does not provide any description.)
 	           * </em>
 	     *
-	     * @param {string} container 
+	     * @param {string} container
 	     *
 	     * @returns {object} An empty reference that will be
 	     *   populated with the actual data once the response is returned
@@ -53199,7 +53199,7 @@
 	           * (The remote method definition does not provide any description.)
 	           * </em>
 	     *
-	     * @param {string} container 
+	     * @param {string} container
 	     *
 	     * @returns {object[]} An empty reference that will be
 	     *   populated with the actual data once the response is returned
@@ -53232,9 +53232,9 @@
 	           * (The remote method definition does not provide any description.)
 	           * </em>
 	     *
-	     * @param {string} container 
+	     * @param {string} container
 	     *
-	     * @param {string} file 
+	     * @param {string} file
 	     *
 	     * @returns {object} An empty reference that will be
 	     *   populated with the actual data once the response is returned
@@ -53268,9 +53268,9 @@
 	           * (The remote method definition does not provide any description.)
 	           * </em>
 	     *
-	     * @param {string} container 
+	     * @param {string} container
 	     *
-	     * @param {string} file 
+	     * @param {string} file
 	     *
 	     * @returns {object} An empty reference that will be
 	     *   populated with the actual data once the response is returned
@@ -53278,7 +53278,7 @@
 	     *
 	     * Data properties:
 	     *
-	     *  - `` – `{}` - 
+	     *  - `` – `{}` -
 	     */
 
 	  }, {
@@ -53303,13 +53303,13 @@
 	           * (The remote method definition does not provide any description.)
 	           * </em>
 	     *
-	     * @param {string} container 
+	     * @param {string} container
 	     *
 	     * @param {object} data Request data.
 	     *
-	     *  - `req` – `{object}` - 
+	     *  - `req` – `{object}` -
 	     *
-	     *  - `res` – `{object}` - 
+	     *  - `res` – `{object}` -
 	     *
 	     * @returns {object} An empty reference that will be
 	     *   populated with the actual data once the response is returned
@@ -53317,7 +53317,7 @@
 	     *
 	     * Data properties:
 	     *
-	     *  - `result` – `{object}` - 
+	     *  - `result` – `{object}` -
 	     */
 
 	  }, {
@@ -53341,13 +53341,13 @@
 	           * (The remote method definition does not provide any description.)
 	           * </em>
 	     *
-	     * @param {string} container 
+	     * @param {string} container
 	     *
-	     * @param {string} file 
+	     * @param {string} file
 	     *
-	     * @param {object} req 
+	     * @param {object} req
 	     *
-	     * @param {object} res 
+	     * @param {object} res
 	     *
 	     * @returns {object} An empty reference that will be
 	     *   populated with the actual data once the response is returned
@@ -53384,7 +53384,7 @@
 	     *
 	     * Data properties:
 	     *
-	     *  - `result` – `{any}` - 
+	     *  - `result` – `{any}` -
 	     */
 
 	  }, {
@@ -53408,9 +53408,9 @@
 	     *
 	     * @param {object} custom {"start": date, "end": date }
 	     *
-	     * @param {object} where where filter 
+	     * @param {object} where where filter
 	     *
-	     * @param {string} groupBy group by filter 
+	     * @param {string} groupBy group by filter
 	     *
 	     * @returns {object[]} An empty reference that will be
 	     *   populated with the actual data once the response is returned
@@ -53588,7 +53588,7 @@
 	     *
 	     * Data properties:
 	     *
-	     *  - `result` – `{any}` - 
+	     *  - `result` – `{any}` -
 	     */
 
 	  }, {
@@ -53612,9 +53612,9 @@
 	     *
 	     * @param {object} custom {"start": date, "end": date }
 	     *
-	     * @param {object} where where filter 
+	     * @param {object} where where filter
 	     *
-	     * @param {string} groupBy group by filter 
+	     * @param {string} groupBy group by filter
 	     *
 	     * @returns {object[]} An empty reference that will be
 	     *   populated with the actual data once the response is returned
@@ -53717,7 +53717,7 @@
 	   *
 	   * @param {any} id UserIdentity id
 	   *
-	   * @param {boolean} refresh 
+	   * @param {boolean} refresh
 	   *
 	   * @returns {object} An empty reference that will be
 	   *   populated with the actual data once the response is returned
@@ -53828,7 +53828,7 @@
 	     *
 	     * Data properties:
 	     *
-	     *  - `result` – `{any}` - 
+	     *  - `result` – `{any}` -
 	     */
 
 	  }, {
@@ -53852,9 +53852,9 @@
 	     *
 	     * @param {object} custom {"start": date, "end": date }
 	     *
-	     * @param {object} where where filter 
+	     * @param {object} where where filter
 	     *
-	     * @param {string} groupBy group by filter 
+	     * @param {string} groupBy group by filter
 	     *
 	     * @returns {object[]} An empty reference that will be
 	     *   populated with the actual data once the response is returned
